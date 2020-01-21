@@ -1,0 +1,62 @@
+html {
+  background-color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  height: 100px;
+  display: block;
+}
+
+.banner {
+  display: block;
+}
+
+
+nav a {
+  text-align: right;
+  color: #005e76;
+  border-bottom: #8bc9d9 2px solid;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.recipes {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 82em;
+  width: 100%;
+}
+
+.card {
+  max-width: 24em;
+  border: 3px solid #000;
+}
+
+/* @media only screen and (min-width: 25em) {
+
+  #main {
+    margin-top: 100px;
+  }
+} */
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    float: left;
+  }
+
+}
