@@ -1,7 +1,7 @@
 html {
   background-color: #fff;
-  font-family: "Noto Sans", sans-serif;
-  font-family: "Noto Sans Japanese", sans-serif;
+  font-family: interstate, sans-serif;
+  font-family: filosofia, serif;
 }
 
 .navbar {
@@ -18,16 +18,26 @@ html {
   display: block;
 }
 
+h1, h2, h3, .subtitle {
+  font-family: interstate, sans-serif;
+}
+
+a, .btn {
+  font-family: interstate, sans-serif;
+}
 
 nav a {
   text-align: right;
-  color: #005e76;
-  border-bottom: #8bc9d9 2px solid;
+  color: #000;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: #000;
+  border-bottom: #000 2px solid;
+}
+
+nav .current {
+  border-bottom: #000 2px solid;
 }
 
 .recipes {
@@ -43,16 +53,18 @@ nav a:hover {
 }
 
 .card {
-  max-width: 24em;
-  border: 3px solid #000;
+  max-width: 20em;
+  border: 1px solid #000;
 }
 
-/* @media only screen and (min-width: 25em) {
+.align-bottom {
+  vertical-align: bottom;
+}
 
-  #main {
-    margin-top: 100px;
-  }
-} */
+.underline {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 38em) {
 
   h1 {
